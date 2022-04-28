@@ -2,69 +2,28 @@
 
 Column | Description | Type 
 --- | --- | --- 
-iid | unique subject number, group(wave id gender) | int
-id | subject number within wave | int
-gender | tells the gender |	Female = 0,  Male = 1
-idg | subject number within gender, group(id gender) | int
-condtn | choice type | 1 = limited choice, 2 = extensive choice
-
+`iid` | unique subject number, group(wave id gender) | `int`
+`id` | subject number within wave | `int`
+`gender` | tells the gender |	`0 = Female,  1 = Male`
+`idg` | subject number within gender, group(id gender) | `int`
+`condtn` | choice type | `1 = limited choice, 2 = extensive choice`
+`wave` | dating wave | see more detail [here](#wave-dating)		
+`round` | number of people that met in wave | `int`
+`position` | station number where met partner | `int`
+`positin1` | station number where started | `int`
+`order` | the number of date that night when met partner | `int`
+`partner` | partner’s id number the night of event | `int`
+`pid` | partner’s iid number | `int`
+`match` | tells the match | `1 = yes, 0 = no`
+`int_corr` | correlation between participant’s and partner’s ratings of interests in time 1 (first date) | `int`
+`samerace` | participant and the partner were the same race | `1 = yes, 0 = no`
+`age_o` | age of partner | `int`
+`race_o` | race of partner | ``
+`pf_o_att` | partner’s stated preference at time 1 (attr1_1) for all 6 attributes | ``
+`dec_o` | decision of partner the night of event | ``
+`attr_o` | rating by partner the night of the event, for all 6 attributes | ``
 
 ---
-
-wave:		
-Wave #	Date	Preference Scale	Variations	# Males	# Females
-1	October 16th ‘02	100 pt alloc.		10	10
-2	October 23rd ‘02
-	100 pt alloc.		16	19
-3	November 12th ‘02	100 pt alloc.		10	9
-4	November 12th ‘02	100 pt alloc.		18	18
-5	November 20th, ‘02	100 pt alloc.	undergrads	10	10
-6	March 26th ‘03	1-10 scale		5	5
-7	March 26th ‘03  	1-10 scale		16	16
-8	April 2nd ‘03  	1-10 scale		10	10
-9	April 2nd ‘03  	1-10 scale		20	20
-10	September 24th ‘03	100 pt alloc.		9	9
-11	September 24th ‘03	100 pt alloc.		21	21
-12	October 7th ‘03	100 pt alloc.	Budget: only allowed to yes yes to 50% of the people that met	14	15
-13	October 8th ‘03	100 pt alloc.	Different M.C.	9	10
-14	October 8th ‘03	100 pt alloc.	Different M.C.	18	20
-15	February 24th ‘04	100 pt alloc.		19	18
-16	February 25th ‘04	100 pt alloc.		8	6
-17	February 25th ‘04	100 pt alloc.		14	10
-18	April 6th ‘04	100 pt alloc.	brought a magazine	6	6
-19	April 6th ‘04	100 pt alloc.	brought a book	15	16
-20	April 7th ‘04	100 pt alloc.	brought a book	8	6
-21	April 7th ‘04	100 pt alloc.	brought a magazine	22	22
-
-
-round:		number of people that met in wave
-
-position:  	station number where met partner 
-
-positin1:	station number where started 
-
-order: 		the number of date that night when met partner
-
-partner: 	partner’s id number the night of event
-
-pid: 		partner’s iid number
-
-match		1=yes, 0=no
-
-int_corr:	correlation between participant’s and partner’s ratings of interests in 			Time 1
-
-samerace:  	participant and the partner were the same race. 1= yes, 0=no
-
-age_o:		age of partner
-
-race_o:		race of partner
-
-pf_o_att: 	partner’s stated preference at Time 1 (attr1_1) for all 6 attributes
-
-dec_o: 		decision of partner the night of event
-
-attr_o: 		rating by partner the night of the event, for all 6 attributes
-
 
 signup/Time1:
 [Survey filled out by students that are interested in participating in order to register for the event.]
@@ -623,3 +582,33 @@ Ambitious
 	
 
 
+---
+
+<a id="wave-dating" />
+
+wave:		
+Wave #	Date	Preference Scale	Variations	# Males	# Females
+1	October 16th ‘02	100 pt alloc.		10	10
+2	October 23rd ‘02
+	100 pt alloc.		16	19
+3	November 12th ‘02	100 pt alloc.		10	9
+4	November 12th ‘02	100 pt alloc.		18	18
+5	November 20th, ‘02	100 pt alloc.	undergrads	10	10
+6	March 26th ‘03	1-10 scale		5	5
+7	March 26th ‘03  	1-10 scale		16	16
+8	April 2nd ‘03  	1-10 scale		10	10
+9	April 2nd ‘03  	1-10 scale		20	20
+10	September 24th ‘03	100 pt alloc.		9	9
+11	September 24th ‘03	100 pt alloc.		21	21
+12	October 7th ‘03	100 pt alloc.	Budget: only allowed to yes yes to 50% of the people that met	14	15
+13	October 8th ‘03	100 pt alloc.	Different M.C.	9	10
+14	October 8th ‘03	100 pt alloc.	Different M.C.	18	20
+15	February 24th ‘04	100 pt alloc.		19	18
+16	February 25th ‘04	100 pt alloc.		8	6
+17	February 25th ‘04	100 pt alloc.		14	10
+18	April 6th ‘04	100 pt alloc.	brought a magazine	6	6
+19	April 6th ‘04	100 pt alloc.	brought a book	15	16
+20	April 7th ‘04	100 pt alloc.	brought a book	8	6
+21	April 7th ‘04	100 pt alloc.	brought a magazine	22	22
+
+---
