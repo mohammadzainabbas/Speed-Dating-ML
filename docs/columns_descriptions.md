@@ -1,6 +1,6 @@
 ### Speed Dating - Column Descriptions
 
-Column | Description | Type 
+__Column__ | __Description__ | __Type__ 
 --- | --- | --- 
 `iid` | unique subject number, group(wave id gender) | `int`
 `id` | subject number within wave | `int`
