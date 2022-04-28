@@ -3,25 +3,35 @@
 __Column__ | __Description__ | __Type__ 
 --- | --- | --- 
 `iid` | unique subject number, group(wave id gender) | `int`
-`id` | subject number within wave | `int`
+`id` | subject number within wave | `float`
 `gender` | tells the gender |	`0 = Female,  1 = Male`
 `idg` | subject number within gender, group(id gender) | `int`
 `condtn` | choice type | `1 = limited choice, 2 = extensive choice`
-`wave` | dating wave | see more detail [here](#wave-dating)		
+`wave` | dating wave. see more detail [here](#wave-dating) | `int`
 `round` | number of people that met in wave | `int`
 `position` | station number where met partner | `int`
-`positin1` | station number where started | `int`
+`positin1` | station number where started | `float`
 `order` | the number of date that night when met partner | `int`
 `partner` | partner’s id number the night of event | `int`
-`pid` | partner’s iid number | `int`
+`pid` | partner’s iid number | `float`
 `match` | tells the match | `1 = yes, 0 = no`
-`int_corr` | correlation between participant’s and partner’s ratings of interests in time 1 (first date) | `int`
+`int_corr` | correlation between participant’s and partner’s ratings of interests in time 1 (first date) | `float`
 `samerace` | participant and the partner were the same race | `1 = yes, 0 = no`
-`age_o` | age of partner | `int`
-`race_o` | race of partner | ``
-`pf_o_att` | partner’s stated preference at time 1 (attr1_1) for all 6 attributes | ``
-`dec_o` | decision of partner the night of event | ``
-`attr_o` | rating by partner the night of the event, for all 6 attributes | ``
+`age_o` | age of partner | `float`
+`race_o` | race of partner | `float`
+`pf_o_att` | partner’s stated preference at time 1 (attr1_1) - for attractiveness | `float`
+`pf_o_sin` | partner’s stated preference at time 1 (sin1_1) - for sincerity | `float`
+`pf_o_int` | partner’s stated preference at time 1 (int1_1) - for intelligence | `float`
+`pf_o_fun` | partner’s stated preference at time 1 (fun1_1) - for fun | `float`
+`pf_o_amb` | partner’s stated preference at time 1 (amb1_1) - for ambition | `float`
+`pf_o_sha` | partner’s stated preference at time 1 (sha1_1) - for shared interests | `float`
+`dec_o` | decision of partner the night of event | `int`
+`attr_o` | rating by partner the night of the event, for attractiveness | `float`
+`sinc_o` | rating by partner the night of the event, for sincerity | `float`
+`intel_o` | rating by partner the night of the event, for intelligence | `float`
+`fun_o` | rating by partner the night of the event, for fun | `float`
+`amb_o` | rating by partner the night of the event, for ambition | `float`
+`shar_o` | rating by partner the night of the event, for shared interests | `float`
 
 ---
 
