@@ -35,35 +35,16 @@ __Column__ | __Description__ | __Type__
 
 ---
 
-signup/Time1:
-[Survey filled out by students that are interested in participating in order to register for the event.]
-age:
+### Survey data columns which were filled out by students that were interested in participating (before signup)
 
-field:		field of study  
-
-field_cd: 	field coded 
-1= Law  
-2= Math
-3= Social Science, Psychologist 
-4= Medical Science, Pharmaceuticals, and Bio Tech 
-5= Engineering  
-6= English/Creative Writing/ Journalism 
-7= History/Religion/Philosophy 
-8= Business/Econ/Finance 
-9= Education, Academia 
-10= Biological Sciences/Chemistry/Physics
-11= Social Work 
-12= Undergrad/undecided 
-13=Political Science/International Affairs 
-14=Film
-15=Fine Arts/Arts Administration
-16=Languages
-17=Architecture
-18=Other
-
-undergrd:  	school attended for undergraduate degree
-
-mn_sat: 	Median SAT score for the undergraduate institution where attended.  			Taken from Barron’s 25th Edition college profile book.  Proxy for 				intelligence.
+__Column__ | __Description__ | __Type__ 
+--- | --- | --- 
+`age` | age of the person | `float`
+`field` | field of study | `str`
+`field_cd` | encoding for `field` attribute |  
+`1 = Law  , 2 = Math, 3 = Social Science, Psychologist , 4 = Medical Science, Pharmaceuticals, and Bio Tech , 5 = Engineering  , 6 = English/Creative Writing/ Journalism , 7 = History/Religion/Philosophy , 8 = Business/Econ/Finance , 9 = Education, Academia , 10 = Biological Sciences/Chemistry/Physics, 11 = Social Work, 12 = Undergrad/undecided , 13 = Political Science/International Affairs, 14 = Film, 15 = Fine Arts/Arts Administration, 16 = Languages, 17 = Architecture, 18 = Other`
+`undergrd` | school attended for undergraduate degree | `str`
+`mn_sat` | Median SAT score for the undergraduate institution where attended. Taken from Barron’s 25th Edition college profile book.  Proxy for intelligence. | `str`
 
 tuition: 	Tuition listed for each response to undergrad in Barron’s 25th Edition 			college profile book.
 
