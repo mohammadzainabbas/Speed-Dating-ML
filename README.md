@@ -20,6 +20,7 @@
 #### 1. Introduction
 
 
+You can find the kaggle link [here](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment)
 
 ---
 
@@ -27,7 +28,7 @@
 
 #### 2. Project Overview
 
-The aim of this project is to improve the overall scheme of statistics collection and cardinality estimation for range types in PostgreSQL.
+The aim of this project is to work on machine learning project 
 
 So, project can be divided up into three parts:
 
