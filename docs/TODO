@@ -1,0 +1,35 @@
+==================================================
+Machine Learning Project
+
+Deadline Submission: 10th June, 2022 
+Deadline Poster: 15th June, 2022
+
+Total: 7 weeks
+==================================================
+
+==================================================
+01 - 21st April, 2022
+
+- Data Exploration (EDA step)
+
+_Column_
+
+100 -> Zyrako
+95 -> Zain
+
+> Randomly divided
+
+- Basic Preprocessing
+
+- By next thursday, finish these:
+
+1. All columns should be explored thoroughly
+2. Remove columns which are not worthy enough (i.e: don't provide much useful information for us)
+3. See pre-processing techniques for the following types of data:
+    i) numeric
+    ii) categorical
+    iii) binary
+4. DON'T WORRY (STRESS). BE HAPPY 
+5. All the details should be documented in some common document
+
+==================================================
