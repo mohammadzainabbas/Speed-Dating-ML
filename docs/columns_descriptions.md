@@ -73,13 +73,8 @@ __Column__ | __Description__ | __Type__
 `music` | How interested are you in music ? (on a scale of 1-10) | `float`
 `shopping` | How interested are you in shopping ? (on a scale of 1-10) | `float`
 `yoga` | How interested are you in yoga/meditation ? (on a scale of 1-10) | `float`
-
- exphappy:
-Overall, on a scale of 1-10, how happy do you expect to be with the people you meet 
-during the speed-dating event?
-
-expnum: 
-Out of the 20 people you will meet, how many do you expect will be interested in dating you? 
+`exphappy` | Overall, on a scale of 1-10, how happy do you expect to be with the people you meet during the speed-dating event? | `float`
+`expnum` | Out of the 20 people you will meet, how many do you expect will be interested in dating you? | `float`
 
 We want to know what you look for in the opposite sex. 
 Waves 6-9: Please rate the importance of the following attributes in a potential date on a scale of 1-10 (1=not at all important, 10=extremely important):
