@@ -43,6 +43,6 @@ The aim of this project is to get a hands-on practice on typical workflows usual
 - [x] Modelling
 - [x] Test Analysis
 
-> Note: For more details, please refer to the notebook for each part.
+> Note: For more details, please refer to the notebook for each part. For visualizations, you can have a look at [this](https://www.python-graph-gallery.com/)
 
 ---
