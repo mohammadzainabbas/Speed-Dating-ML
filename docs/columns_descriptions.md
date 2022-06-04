@@ -44,111 +44,37 @@ __Column__ | __Description__ | __Type__
 `field_cd` | encoding for `field` attribute | `1 = Law  , 2 = Math, 3 = Social Science, Psychologist , 4 = Medical Science, Pharmaceuticals, and Bio Tech , 5 = Engineering  , 6 = English/Creative Writing/ Journalism , 7 = History/Religion/Philosophy , 8 = Business/Econ/Finance , 9 = Education, Academia , 10 = Biological Sciences/Chemistry/Physics, 11 = Social Work, 12 = Undergrad/undecided , 13 = Political Science/International Affairs, 14 = Film, 15 = Fine Arts/Arts Administration, 16 = Languages, 17 = Architecture, 18 = Other`
 `undergrd` | school attended for undergraduate degree | `str`
 `mn_sat` | Median SAT score for the undergraduate institution where attended. Taken from Barron’s 25th Edition college profile book.  Proxy for intelligence. | `str`
-
-tuition: 	Tuition listed for each response to undergrad in Barron’s 25th Edition 			college profile book.
-
-race:
-	Black/African American=1
-	European/Caucasian-American=2
-	Latino/Hispanic American=3
-	Asian/Pacific Islander/Asian-American=4
-	Native American=5
-	Other=6
-
-imprace:
-How important is it to you (on a scale of 1-10) that a person you date be of the same racial/ethnic background?
-
-imprelig:
- How important is it to you (on a scale of 1-10) that a person you date be of the same religious background?
-
- from:
-Where are you from originally (before coming to Columbia)? 
-
-zipcode:
-What was the zip code of the area where you grew up? 
-
-income:
-Median household income based on zipcode using the Census Bureau website:
-http://venus.census.gov/cdrom/lookup/CMD=LIST/DB=C90STF3B/LEV=ZIP 
-When there is no income it means that they are either from abroad or did not enter their zip code.
-
-goal:
-What is your primary goal in participating in this event? 
-	Seemed like a fun night out=1
-	To meet new people=2
-	To get a date=3
-	Looking for a serious relationship=4
-	To say I did it=5
-	Other=6
-
-date:
-In general, how frequently do you go on dates? 
-	Several times a week=1
-	Twice a week=2
-	Once a week=3
-	Twice a month=4
-	Once a month=5
-	Several times a year=6
-	Almost never=7
-
-go out:
-How often do you go out (not necessarily on dates)?
-	Several times a week=1
-	Twice a week=2
-	Once a week=3
-	Twice a month=4
-	Once a month=5
-	Several times a year=6
-	Almost never=7
-
-career:
-What is your intended career?
-
-career_c: career coded 
-1= Lawyer 
-2= Academic/Research 
-3= Psychologist 
-4= Doctor/Medicine 
-5=Engineer 
-6= Creative Arts/Entertainment 
-7= Banking/Consulting/Finance/Marketing/Business/CEO/Entrepreneur/Admin 
-8= Real Estate 
-9= International/Humanitarian Affairs 
-10= Undecided 
-11=Social Work
-12=Speech Pathology
-13=Politics
-14=Pro sports/Athletics
-15=Other
-16=Journalism
-17=Architecture
-
-
-12.  How interested are you in the following activities, on a scale of 1-10?
-sports: Playing sports/ athletics
-tvsports: Watching sports
-excersice: Body building/exercising
-dining: Dining out
-museums: Museums/galleries
-art: Art
-hiking:  Hiking/camping
-gaming: Gaming
-clubbing: Dancing/clubbing
-reading: Reading
-tv: Watching TV
-theater: Theater
-movies: Movies
-concerts: Going to concerts
-music: Music
-shopping: Shopping
-yoga: Yoga/meditation
-
- exphappy:
-Overall, on a scale of 1-10, how happy do you expect to be with the people you meet 
-during the speed-dating event?
-
-expnum: 
-Out of the 20 people you will meet, how many do you expect will be interested in dating you? 
+`tuition` | Tuition listed for each response to undergrad in Barron’s 25th Edition college profile book | `str`
+`race` | tells about the race | `1 = Black/African American, 2 = European/Caucasian-American, 3 = Latino/Hispanic American, 4 = Asian/Pacific Islander/Asian-American, 5 = Native American, 6 = Other`
+`imprace` | How important is it to you (on a scale of 1-10) that a person you date be of the same racial/ethnic background? | `float`
+`imprelig` | How important is it to you (on a scale of 1-10) that a person you date be of the same religious background? | `float`
+`from` | Where are you from originally (before coming to Columbia)? | `str`
+`zipcode` | What was the zip code of the area where you grew up? | `str`
+`income` | Median household income based on zipcode using the [Census Bureau website](http://venus.census.gov/cdrom/lookup/CMD=LIST/DB=C90STF3B/LEV=ZIP). When there is no income it means that they are either from abroad or did not enter their zip code | `str`
+`goal` | What is your primary goal in participating in this event? | `1 = Seemed like a fun night out, 2 = To meet new people, 3 = To get a date, 4 = Looking for a serious relationship, 5 = To say I did it, 6 = Other`
+`date` | In general, how frequently do you go on dates? | `1 = Several times a week, 2 = Twice a week, 3 = Once a week, 4 = Twice a month, 5 = Once a month, 6 = Several times a year, 7 = Almost never`
+`go_out` | How often do you go out (not necessarily on dates)? | `1 = Several times a week, 2 = Twice a week, 3 = Once a week, 4 = Twice a month, 5 = Once a month, 6 = Several times a year, 7 = Almost never`
+`career` | What is your intended career? | `str`
+`career_c` | career coded | `1 = Lawyer, 2 = Academic/Research, 3 = Psychologist, 4 = Doctor/Medicine, 5 = Engineer, 6 = Creative Arts/Entertainment, 7 = Banking/Consulting/Finance/Marketing/Business/CEO/Entrepreneur/Admin, 8 = Real Estate, 9 = International/Humanitarian Affairs, 10 = Undecided, 11 = Social Work, 12 = Speech Pathology, 13 = Politics, 14 = Pro sports/Athletics, 15 = Other, 16 = Journalism, 17 = Architecture`
+`sports` | How interested are you in playing sports/ athletics ? (on a scale of 1-10) | `float`
+`tvsports` | How interested are you in watching sports ? (on a scale of 1-10) | `float`
+`excersice` | How interested are you in body building/exercising ? (on a scale of 1-10) | `float`
+`dining` | How interested are you in dining out ? (on a scale of 1-10) | `float`
+`museums` | How interested are you in museums/galleries ? (on a scale of 1-10) | `float`
+`art` | How interested are you in art ? (on a scale of 1-10) | `float`
+`hiking` |  How interested are you in hiking/camping ? (on a scale of 1-10) | `float`
+`gaming` | How interested are you in gaming ? (on a scale of 1-10) | `float`
+`clubbing` | How interested are you in dancing/clubbing ? (on a scale of 1-10) | `float`
+`reading` | How interested are you in reading ? (on a scale of 1-10) | `float`
+`tv` | How interested are you in watching TV ? (on a scale of 1-10) | `float`
+`theater` | How interested are you in theater ? (on a scale of 1-10) | `float`
+`movies` | How interested are you in movies ? (on a scale of 1-10) | `float`
+`concerts` | How interested are you in going to concerts ? (on a scale of 1-10) | `float`
+`music` | How interested are you in music ? (on a scale of 1-10) | `float`
+`shopping` | How interested are you in shopping ? (on a scale of 1-10) | `float`
+`yoga` | How interested are you in yoga/meditation ? (on a scale of 1-10) | `float`
+`exphappy` | Overall, on a scale of 1-10, how happy do you expect to be with the people you meet during the speed-dating event? | `float`
+`expnum` | Out of the 20 people you will meet, how many do you expect will be interested in dating you? | `float`
 
 We want to know what you look for in the opposite sex. 
 Waves 6-9: Please rate the importance of the following attributes in a potential date on a scale of 1-10 (1=not at all important, 10=extremely important):
