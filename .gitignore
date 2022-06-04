@@ -130,3 +130,6 @@ dmypy.json
 
 # .DS_Store
 *.DS_Store
+
+src/scripts/commit.sh
+src/scripts/update_git.py
