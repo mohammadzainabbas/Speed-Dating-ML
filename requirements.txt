@@ -1,0 +1,10 @@
+scikit-learn
+seaborn
+numpy
+pandas
+statistics
+scipy
+statsmodels
+pandas-profiling
+plotly
+ipython
