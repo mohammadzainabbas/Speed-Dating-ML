@@ -1,2 +1,7 @@
 sklearn
 seaborn
+numpy
+pandas
+statistics
+scipy
+statsmodels
