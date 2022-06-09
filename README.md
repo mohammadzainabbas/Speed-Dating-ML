@@ -76,4 +76,6 @@ conda activate machine_learning
 pip install -r requirements.txt
 ```
 
+Now, everything that you need is installed and ready to go.
+
 ---
