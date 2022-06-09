@@ -52,6 +52,20 @@ The aim of this project is to get a hands-on practice on typical workflows usual
 
 #### 4. Setup
 
+We have a pretty straightforward setup. 
 
+1. Set up a new Python env
+
+If you have `conda` installed, run the following command
+
+```bash
+conda create -n machine_learning python=3.8 -y
+```
+
+2. Now clone the repository
+
+```bash
+git clone 
+```
 
 ---
