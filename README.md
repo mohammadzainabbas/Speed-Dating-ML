@@ -13,6 +13,7 @@
 - [Introduction](#introduction)
 - [About the Data](#about-the-data)
 - [Project Overview](#project-overview)
+- [Setup](#setup)
 
 ---
 
@@ -44,5 +45,13 @@ The aim of this project is to get a hands-on practice on typical workflows usual
 - [x] Test Analysis
 
 > Note: For more details, please refer to the notebook for each part. For visualizations, you can have a look at [this](https://www.python-graph-gallery.com/)
+
+---
+
+<a id="setup" />
+
+#### 4. Setup
+
+
 
 ---
