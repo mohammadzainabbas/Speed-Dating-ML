@@ -6,3 +6,5 @@ statistics
 scipy
 statsmodels
 pandas-profiling
+plotly
+ipython
