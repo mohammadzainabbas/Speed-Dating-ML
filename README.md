@@ -65,7 +65,15 @@ conda create -n machine_learning python=3.8 -y
 2. Now clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/mohammadzainabbas/Speed-Dating-ML.git
+cd Speed-Dating-ML/
+```
+
+3. Install the required dependencies
+
+```bash
+conda activate machine_learning
+pip install -r requirements.txt
 ```
 
 ---
