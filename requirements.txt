@@ -8,3 +8,51 @@ statsmodels
 pandas-profiling
 plotly
 ipython
+
+
+Logistic Regression
+
+test_accuracy  0.754 +/- 0.016
+test_precision 0.721 +/- 0.023
+test_recall    0.678 +/- 0.046
+test_f1_macro  0.745 +/- 0.018
+
+
+Support Vector Machine
+
+test_accuracy  0.747 +/- 0.020
+test_precision 0.713 +/- 0.037
+test_recall    0.674 +/- 0.037
+test_f1_macro  0.738 +/- 0.019
+
+
+k-Nearest Neighbours
+
+test_accuracy  0.665 +/- 0.023
+test_precision 0.630 +/- 0.045
+test_recall    0.511 +/- 0.068
+test_f1_macro  0.644 +/- 0.022
+
+
+Gradient Boosting
+
+test_accuracy  0.755 +/- 0.014
+test_precision 0.725 +/- 0.040
+test_recall    0.680 +/- 0.050
+test_f1_macro  0.746 +/- 0.012
+
+
+Voting Ensemble
+
+test_accuracy  0.751 +/- 0.014
+test_precision 0.739 +/- 0.032
+test_recall    0.634 +/- 0.042
+test_f1_macro  0.738 +/- 0.014
+
+
+Stacking Ensemble
+
+test_accuracy  0.756 +/- 0.016
+test_precision 0.726 +/- 0.034
+test_recall    0.679 +/- 0.042
+test_f1_macro  0.747 +/- 0.015
