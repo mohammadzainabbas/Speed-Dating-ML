@@ -14,6 +14,7 @@
 - [About the Data](#about-the-data)
 - [Project Overview](#project-overview)
 - [Setup](#setup)
+- [Result](#result)
 
 ---
 
@@ -77,5 +78,19 @@ pip install -r requirements.txt
 ```
 
 Now, everything that you need is installed and ready to go.
+
+---
+
+<a id="result" />
+
+#### 5. Result
+
+`Model` | `Accuracy` | `Precision` | `Recall` | `F1 score (macro)`
+`Logistic Regression` | 0.754 | 0.721 | 0.678 | 0.745 
+`Support Vector Machine` | 0.747 | 0.713 | 0.674 | 0.738 
+`k-Nearest Neighbours` | 0.665 | 0.630 | 0.511 | 0.644
+`Gradient Boosting` | 0.755 | 0.725 | 0.680 | 0.746
+`Voting Ensemble` | 0.751 | 0.739 | 0.634 | 0.738
+`Stacking Ensemble` | 0.756 | 0.726 | 0.679 | 0.747
 
 ---
